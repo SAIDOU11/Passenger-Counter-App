@@ -4,6 +4,13 @@ body {
   font-family: "Segoe, UI", "Open Sans", "Helvetica-Neue" serif;
   font-weight: bold;
   text-align: center;
+  height: 100vh;
+}
+.container {
+  background: #fff;
+  max-width: 80%;
+  margin: auto;
+  border: 3px solid black;
 }
 h1 {
   margin-top: 10px;
@@ -17,7 +24,7 @@ h2 {
 }
 
 button {
-  border: none;
+  border: 1px solid black;
   padding-top: 10px;
   padding-bottom: 10px;
   color: #fff;
@@ -27,10 +34,19 @@ button {
   border-radius: 5px;
 }
 
-#increment-btn {
-  background: darkred;
+button:hover {
+  border: 2px solid skyblue;
+  cursor: pointer;
 }
 
-#decrement-btn {
-  background: darkgreen;
+#increment-btn {
+  background: #2c2891;
+}
+
+#save-btn {
+  background: #1c7947;
+}
+
+#save-el {
+  font-weight: bold;
 }
