@@ -1,5 +1,5 @@
 body {
-  background-image: url("./images/station.jpg");
+  background-image: url("./images/Sation.png");
   background-size: cover;
   font-family: "Segoe, UI", "Open Sans", "Helvetica-Neue" serif;
   font-weight: bold;
@@ -9,6 +9,7 @@ body {
 .container {
   background: #fff;
   max-width: 80%;
+  height: 300px;
   margin: auto;
   border: 3px solid black;
 }
